@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# PyInstaller / Build Artifacts
+build/
+dist/
+Output/
+*.manifest
+*.spec.bak
+
+# External Scanner Binaries (Keep repository lightweight)
+build_assets/NAPS2/
+!build_assets/.gitkeep
+
+# Local Runtime Configuration & Logs
+*.log
+settings.json
+.write_test
+render_*.py
+
+# Operating System
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace

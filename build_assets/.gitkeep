@@ -1,0 +1,2 @@
+# Placeholder to keep the build_assets directory in git.
+# Place NAPS2 portable files here under build_assets/NAPS2/ before running PyInstaller.
