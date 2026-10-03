@@ -4,6 +4,12 @@
   <img src="assets/logo.png" alt="DocArchive Logo" width="120" height="120" />
 </p>
 
+<p align="center">
+  <a href="https://github.com/bkinter17-cloud/ArchiveScanner_for_mayan_edms/releases/download/v1.0.0/ArchiveScanner-Setup.exe">
+    <img src="https://img.shields.io/badge/⬇%20تحميل-مثبت%20ويندوز%20المباشر%20(.exe)-4f46e5?style=for-the-badge&logo=windows" alt="تحميل برنامج التثبيت" />
+  </a>
+</p>
+
 تطبيق مكتبي متكامل لنظام تشغيل Windows يعمل كأداة مساعدة ومباشرة لنظام الأرشفة وإدارة الوثائق الإلكترونية **Mayan EDMS**.
 
 ---

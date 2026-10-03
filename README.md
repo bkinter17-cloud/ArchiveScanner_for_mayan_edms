@@ -21,6 +21,12 @@
   <img src="https://img.shields.io/badge/License-MIT-green" alt="MIT License" />
 </p>
 
+<p align="center">
+  <a href="https://github.com/bkinter17-cloud/ArchiveScanner_for_mayan_edms/releases/download/v1.0.0/ArchiveScanner-Setup.exe">
+    <img src="https://img.shields.io/badge/⬇%20Download-Windows%20Installer%20(.exe)-4f46e5?style=for-the-badge&logo=windows" alt="Download Windows Installer" />
+  </a>
+</p>
+
 ---
 
 ## 🌟 Why ArchiveScanner?
