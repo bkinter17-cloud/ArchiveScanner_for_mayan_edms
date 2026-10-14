@@ -1,12 +1,17 @@
 PySide6>=6.7,<7
 requests>=2.31,<3
 pyinstaller>=6.0,<7
+pytest>=8.0,<9
+pytest-mock>=3.12,<4
 
 # Build on Windows:
 # py -m venv .venv
 # .venv\Scripts\activate
 # pip install -r qt6_windows_requirements.txt
 # pyinstaller --clean --noconfirm ArchiveScannerQt.spec
+#
+# Run tests:
+# pytest
 #
 # Then compile ArchiveScannerQt.iss with Inno Setup.
 # Before PyInstaller, put NAPS2 Portable files in:

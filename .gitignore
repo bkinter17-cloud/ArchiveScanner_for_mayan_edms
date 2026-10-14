@@ -15,6 +15,7 @@ dist/
 Output/
 *.manifest
 *.spec.bak
+.pytest_cache/
 
 # External Scanner Binaries (Keep repository lightweight)
 build_assets/NAPS2/

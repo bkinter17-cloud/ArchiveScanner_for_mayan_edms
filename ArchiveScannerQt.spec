@@ -6,9 +6,13 @@ naps2 = project / "build_assets" / "NAPS2"
 assets = project / "assets"
 rthook = project / "rthook_qt_fix.py"
 
-datas, binaries, hiddenimports = [], [], []
+datas, binaries = [], []
+hiddenimports = ["app", "app.client", "app.ui", "app.utils"]
 if naps2.exists():
     datas.append((str(naps2), "NAPS2"))
+translations = project / "translations"
+if translations.exists():
+    datas.append((str(translations), "translations"))
 for asset_name in ("logo.png", "logo.ico"):
     asset = assets / asset_name
     if asset.exists():

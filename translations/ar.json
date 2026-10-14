@@ -1,0 +1,148 @@
+{
+  "app": {
+    "name": "أرشيف المستندات",
+    "caption": "منصة الأرشفة الرقمية",
+    "window_title": "أرشيف المستندات | مسح وأرشفة المستندات"
+  },
+
+  "login": {
+    "window_title": "تسجيل الدخول | برنامج أرشفة المستندات",
+    "brand_title": "أرشيف المستندات",
+    "brand_subtitle": "منصة موحّدة لمسح المستندات وأرشفتها رقميًا.",
+    "brand_features": [
+      "مسح مباشر من أجهزة Twain / WIA",
+      "فهرسة وأرشفة فورية إلى خادم الأرشيف",
+      "بحث سريع واسترجاع المستندات النصية"
+    ],
+    "heading": "تسجيل الدخول",
+    "caption": "أدخل بيانات الاعتماد للوصول إلى الأرشيف",
+    "server_label": "عنوان URL للخادم",
+    "server_placeholder": "مثال: http://192.168.1.100:8000",
+    "username_label": "اسم المستخدم",
+    "username_placeholder": "أدخل اسم المستخدم",
+    "password_label": "كلمة المرور",
+    "password_placeholder": "••••••••",
+    "button": "تسجيل الدخول",
+    "connecting": "جارٍ الاتصال...",
+    "connecting_status": "جارٍ الاتصال بالخادم والمصادقة...",
+    "server_caption": "💡 يمكنك تعديل عنوان الخادم أعلاه. سيتم حفظه تلقائيًا.",
+    "error_empty_server": "يُرجى إدخال عنوان URL صالح للخادم",
+    "error_empty_credentials": "يُرجى إدخال اسم المستخدم وكلمة المرور",
+    "error_failed": "فشل الاتصال أو تسجيل الدخول",
+    "error_connection_title": "خطأ في الاتصال بالخادم",
+    "error_login_title": "خطأ في تسجيل الدخول",
+    "error_connection_msg": "تعذّر الاتصال بخادم الأرشيف على:\n{server_url}\n\nيُرجى التحقق من:\n1. صحة عنوان الخادم والمنفذ.\n2. اتصال جهازك بالشبكة.\n3. تشغيل خدمة الأرشيف الرقمي على المضيف."
+  },
+
+  "sidebar": {
+    "nav_archive": "🗂   أرشفة جديدة",
+    "nav_search": "🔍   البحث في الأرشيف",
+    "connected": "● متصل",
+    "logout": "🚪   تسجيل الخروج",
+    "logout_confirm_title": "تسجيل الخروج",
+    "logout_confirm_message": "هل تريد إنهاء الجلسة والعودة إلى شاشة تسجيل الدخول؟"
+  },
+
+  "header": {
+    "status_ready": "جاهز"
+  },
+
+  "archive_page": {
+    "nav_title": "أرشفة مستند",
+    "nav_subtitle": "مسح مستند أو تحميل ملف PDF للأرشفة الرقمية",
+    "section_meta": "١ · بيانات المستند",
+    "section_options": "٢ · خيارات الأرشفة والماسح الضوئي",
+    "field_title": "الموضوع / العنوان *",
+    "field_title_placeholder": "موضوع المستند أو عنوانه",
+    "field_number": "رقم المستند *",
+    "field_number_placeholder": "مثال: 2026/DOC/001",
+    "field_date": "التاريخ *",
+    "field_date_placeholder": "YYYY-MM-DD",
+    "field_notes": "ملاحظات",
+    "field_notes_placeholder": "ملاحظات اختيارية أو وصف موجز",
+    "field_device": "جهاز الماسح الضوئي",
+    "field_doc_type": "نوع المستند",
+    "btn_refresh": "↻  تحديث",
+    "btn_scan": "🖨   مسح وأرشفة",
+    "btn_pdf": "📄  اختيار وتحميل PDF",
+    "file_none": "لم يتم اختيار ملف PDF",
+    "file_selected": "📎  الملف المختار: {filename}",
+    "dialog_pdf_title": "اختيار ملف PDF",
+    "dialog_pdf_filter": "ملفات PDF (*.pdf)",
+    "error_no_device_title": "جهاز الماسح",
+    "error_no_device_msg": "يُرجى اختيار جهاز ماسح متاح أولاً.",
+    "error_incomplete_title": "بيانات غير مكتملة",
+    "error_required_fields": "يُرجى إدخال رقم المستند والموضوع والتاريخ.",
+    "error_no_doc_type": "يُرجى اختيار نوع المستند أولاً.",
+    "error_invalid_date": "استخدم تاريخًا صحيحًا بالصيغة YYYY-MM-DD.",
+    "error_file_title": "ملف غير صالح",
+    "error_file_empty": "الملف المحدد فارغ أو لم يعد متاحًا. يُرجى اختيار ملف PDF صالح.",
+    "success_title": "نجاح الأرشفة",
+    "success_pdf_msg": "تمت أرشفة مستند PDF بنجاح!",
+    "success_scan_msg": "تمت عملية المسح والأرشفة بنجاح!",
+    "error_archive_title": "خطأ",
+    "status_uploading_pdf": "جارٍ تحميل PDF...",
+    "status_scanning": "جارٍ المسح الضوئي...",
+    "status_failed": "فشلت العملية"
+  },
+
+  "search_page": {
+    "nav_title": "البحث في الأرشيف",
+    "nav_subtitle": "البحث برقم المستند أو العنوان أو الكلمات المفتاحية",
+    "section_title": "البحث برقم المستند أو الموضوع أو الكلمة المفتاحية",
+    "query_placeholder": "🔍  اكتب رقم المستند أو كلمة مفتاحية...",
+    "btn_search": "بحث",
+    "hint_dbl_click": "💡  انقر نقرًا مزدوجًا على أي صف لتنزيل المستند وفتحه",
+    "no_results": "لا توجد نتائج بعد",
+    "results_found": "تم العثور على {count} مستند مطابق",
+    "results_none": "لا توجد مستندات مطابقة",
+    "col_number": "رقم المستند",
+    "col_subject": "الموضوع",
+    "col_description": "الوصف",
+    "status_searching": "جارٍ البحث...",
+    "status_search_failed": "فشل البحث",
+    "status_found": "تم العثور على {count} مستند",
+    "error_search_title": "بحث",
+    "doc_id_missing": "تعذّر تحديد معرّف المستند.",
+    "open_doc_title": "فتح المستند",
+    "status_downloading": "جارٍ تنزيل المستند...",
+    "status_downloaded": "تم تنزيل المستند",
+    "status_download_failed": "فشل تنزيل المستند",
+    "open_failed_msg": "تم تنزيل الملف ولكن تعذّر فتحه تلقائيًا:\n{path}\n{error}"
+  },
+
+  "devices": {
+    "detecting": "جارٍ الكشف عن أجهزة الماسح...",
+    "not_found_item": "لم يتم الكشف عن جهاز ماسح",
+    "not_found_error": "لم يتم الكشف عن أجهزة ماسح ضوئي.",
+    "found_status": "تم العثور على {count} جهاز ماسح",
+    "none_status": "لا توجد أجهزة ماسح متاحة"
+  },
+
+  "document_types": {
+    "loading": "جارٍ تحميل أنواع المستندات...",
+    "loading_status": "جارٍ تحميل أنواع المستندات...",
+    "loaded_status": "نوع المستند: {name}",
+    "failed_item": "تعذّر تحميل الأنواع — انقر تحديث",
+    "failed_status": "فشل تحميل أنواع المستندات",
+    "failed_title": "أنواع المستندات",
+    "none_error": "لا توجد أنواع مستندات معيّنة لحسابك.\n\nيُرجى التواصل مع المسؤول للتأكد من:\n1. وجود دور أرشفة بصلاحيات نوع المستند.\n2. ارتباط مجموعة المستخدمين بهذا الدور."
+  },
+
+  "client_errors": {
+    "connect_timeout": "انتهت مهلة الاتصال بعد 5 ثوانٍ إلى:\n{server_url}\nيُرجى التحقق من صحة عنوان الخادم والمنفذ واتصال الشبكة.",
+    "read_timeout": "تم الاتصال بالخادم ولكنه لم يستجب خلال 15 ثانية.\nيُرجى التحقق من حمل الخادم أو حالة خدمة الأرشيف.",
+    "connection_error": "فشل الاتصال بخادم الأرشيف:\n{server_url}\n{error}",
+    "auth_failed": "فشل المصادقة ({status_code})\n{detail}",
+    "no_token": "لم يُعد الخادم رمز مصادقة صالحًا:\n{data}",
+    "doc_types_failed": "فشل جلب أنواع المستندات ({status_code})\n{detail}",
+    "create_failed": "فشل إنشاء سجل المستند ({status_code})\n{detail}\nمعرّف نوع المستند: {type_id}",
+    "missing_doc_id": "استجابة غير متوقعة من الخادم؛ معرّف المستند مفقود:\n{result}",
+    "verify_failed": "تم إنشاء سجل المستند ولكن تعذّر التحقق منه (HTTP {status_code}).\nمعرّف المستند: {document_id}",
+    "upload_failed": "تم إنشاء سجل المستند #{document_id} ولكن فشل رفع الملف ({status_code})\n{detail}",
+    "search_failed": "فشل طلب البحث ({status_code})\n{detail}",
+    "download_failed": "تعذّر تنزيل ملف المستند. (حالة HTTP: {status_code}).\n{detail}",
+    "skip_metadata": "تخطي استجابة البيانات الوصفية غير الثنائية ({content_type}) من: {url}",
+    "scan_failed": "فشلت عملية المسح الضوئي."
+  }
+}
